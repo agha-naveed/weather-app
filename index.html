@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    
+    <section class="main-body">
+        <div class="container">
+            
+            <div class="upper-body p-30">
+                
+                <div class="search">
+                    <input type="text" placeholder="City Name"/>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div id="city-name">- - -</div>
+                <div id="weather-icon">
+                    <img src="img/Sunny Logo.png" alt="Weather Condition" />
+                </div>
+                <div id="temperature">°c</div>
+            </div>
+
+            <div class="extra-info">
+                <div class="column">
+                    <img src="img/humidity-logo.png" alt="" />
+                    <p>Humidity</p>
+                    <p id="humidity">0%</p>
+                </div>
+                <div class="column">
+                    <img src="img/atmospheric-pressure-logo.png" id="pressure-img" alt="" />
+                    <p>Pressure</p>
+                    <p id="pressure">0 Pa</p>
+                </div>
+                <div class="column">
+                    <img src="img/wind-logo.png" alt="" />
+                    <p>Wind</p>
+                    <p id="wind">0.00km/h</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
