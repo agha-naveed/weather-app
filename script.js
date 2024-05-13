@@ -3,6 +3,10 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?units=metric'
 
 let checkWeather = async (city) => {
     const response = await fetch(apiURL + `&q=${city}` + `&appid=${apiKey}`)
+    
+    if(response.status == 404)
+        console.log('Invalid City Name');
+
     const data = await response.json();
 
     document.getElementById('city-name').innerHTML = data.name
