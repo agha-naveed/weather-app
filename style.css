@@ -11,7 +11,7 @@ html , body{
     width: 100%;
     background-image: url(https://img.freepik.com/free-vector/cloud-background-pastel-paper-cut-design-vector_53876-135919.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1722729600&semt=ais_hybrid);
     background-position: center;
-    /* background-size: cover; */
+    background-size: cover;
 
 }
 
@@ -22,6 +22,8 @@ html , body{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    background: #0000002e;
+    backdrop-filter: blur(15px);
 }
 
 .container {
